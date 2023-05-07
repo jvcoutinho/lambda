@@ -8,10 +8,10 @@ func Copy[K comparable, V any](m map[K]V) map[K]V {
 		return nil
 	}
 
-	copy := make(map[K]V, len(m))
+	result := make(map[K]V, len(m))
 	for key, value := range m {
-		copy[key] = value
+		result[key] = value
 	}
 
-	return copy
+	return result
 }
