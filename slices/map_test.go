@@ -17,7 +17,6 @@ func ExampleMap() {
 
 	fmt.Println(slices.Map(students, strings.ToLower))
 	fmt.Println(slices.Map(students, length))
-
 	// Output:
 	// [bob alice camille]
 	// [3 5 7]

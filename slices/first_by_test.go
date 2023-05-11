@@ -19,7 +19,6 @@ func ExampleFirstBy() {
 	fmt.Println(slices.FirstBy(students, startsWithUpperB))
 	fmt.Println(slices.FirstBy(students, endsWithLowerA))
 	fmt.Println(slices.FirstBy(students, endsWithLowerE))
-
 	// Output:
 	// Bob true
 	//  false

@@ -22,7 +22,6 @@ func ExampleReduce() {
 	}
 
 	fmt.Println(slices.Reduce(ages, math.MinInt, max))
-
 	// Output:
 	// 31
 }

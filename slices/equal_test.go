@@ -15,7 +15,6 @@ func ExampleEqual() {
 
 	fmt.Println(slices.Equal(studentsInTennis, studentsInChess))
 	fmt.Println(slices.Equal(studentsInTennis, studentsInVolley))
-
 	// Output:
 	// true
 	// false

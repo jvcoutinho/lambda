@@ -16,7 +16,6 @@ func ExampleContainsKey() {
 
 	fmt.Println(maps.ContainsKey(age, "Bob"))
 	fmt.Println(maps.ContainsKey(age, "Camille"))
-
 	// Output:
 	// true
 	// false

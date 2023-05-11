@@ -17,7 +17,6 @@ func ExampleAny() {
 
 	fmt.Println(slices.Any(students, startsWithUpperB))
 	fmt.Println(slices.Any(students, endsWithLowerA))
-
 	// Output:
 	// true
 	// false

@@ -17,7 +17,6 @@ func ExampleFilter() {
 
 	fmt.Println(slices.Filter(students, startsWithUpperB))
 	fmt.Println(slices.Filter(students, endsWithLowerA))
-
 	// Output:
 	// [Bob]
 	// []

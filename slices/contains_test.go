@@ -13,7 +13,6 @@ func ExampleContains() {
 
 	fmt.Println(slices.Contains(students, "Bob"))
 	fmt.Println(slices.Contains(students, "Camille"))
-
 	// Output:
 	// true
 	// false

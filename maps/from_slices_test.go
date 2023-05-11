@@ -15,7 +15,6 @@ func ExampleFromSlices() {
 
 	fmt.Println(maps.FromSlices(students, ages))
 	fmt.Println(maps.FromSlices(students, classes))
-
 	// Output:
 	// map[Alice:19 Bob:25]
 	// map[Bob:A]

@@ -15,7 +15,6 @@ func ExampleCopy() {
 	}
 
 	fmt.Println(maps.Copy(age))
-
 	// Output:
 	// map[Alice:19 Bob:25]
 }
